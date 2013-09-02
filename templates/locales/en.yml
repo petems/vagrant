@@ -696,8 +696,8 @@ en:
           Using NFS shared folders requires a host to be specified
           using `config.vagrant.host`.
         network_ip_ends_in_one: |-
-          Static IPs cannot end in ".1" since that address is always
-          reserved for the router. Please use another ending.
+          Warning: Addresses that end in ".1" are normally reserved for the router,
+          you may need to change your Static IP.
         network_ip_required: |-
           An IP is required for a private network.
         network_fp_host_not_unique: |-
